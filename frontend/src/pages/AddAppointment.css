@@ -1,0 +1,385 @@
+.Specialcontainer{
+	display: grid;
+	width: 1fr;
+	grid-template-columns: repeat(5, 1fr);
+	grid-gap: 1em;
+	padding-top: 20px;
+}
+
+.Specialbutton{
+	padding: 10px;
+	width: 100px;
+	height:100px;
+	border-radius: 50%;
+	text-align: center;
+	cursor: pointer;
+	background-color: rgb(255, 255, 255);
+	color: rgb(1, 141, 218);
+	font-size: 2.5em;
+	border: none;
+
+	box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+	transition: .2s;
+	&:hover {
+		
+		box-shadow: rgba(1, 141, 218, 0.1) 0px 4px 16px, rgba(1, 141, 218, 0.05) 0px 8px 32px;
+		background-color: rgba(1, 142, 218, 0.347);
+		scale: 1.1;
+		
+	}
+}
+
+.Specialitem {
+	display: flex;
+	flex-direction: column; 
+	align-items: center; 
+	width: 150px;
+	height:150px;
+}
+.Specialitem h6{
+	margin-top: 10px;
+	opacity: 0.7;
+	font-size: smaller;
+}
+
+.tableTab:hover{
+	background-color: aquamarine;
+
+
+
+	
+}
+.table-cell{
+	background: transparent;
+}
+.tableTabBtn{
+		background-color: rgba(1, 142, 218, 0.347); 
+		color: rgba(1, 142, 218, 0.347);
+	
+		
+}
+.tableTabBtn:hover{
+	scale: 1.1;
+	opacity: 0.8;
+	cursor: pointer;
+	color: white;
+}
+
+.Hospital-card-container {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.Hospital-card {
+    width: 500px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+	cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.Hospital-card:hover {
+    transform: scale(1.05);
+}
+
+.Hospital-card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.Hospital-card-content {
+    padding: 15px;
+}
+
+.Hospital-card-content h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.Hospital-card-content p {
+    font-size: 0.9rem;
+    color: #555;
+}
+
+.calendar-container {
+	max-width: 520px;
+
+	background-color: #e0f7fa;
+	padding: 10px;
+	border-radius: 10px ;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	position: relative;
+	left: 0%;
+	margin:40px;
+  }
+  
+  .react-calendar {
+	border: none !important;
+	background-color: transparent !important;
+	font-weight:500 !important;
+	
+	
+  }
+  
+  .react-calendar__tile {
+	background-color: #ffffff ;
+
+	border-radius: 50px !important;
+	height: 100%;
+  }
+  
+  .react-calendar__tile--now {
+	background-color: #9be7ff !important;
+  }
+  
+  .react-calendar__tile--active {
+	background-color: #03a9f4 !important;
+	color: white !important;
+  }
+  
+  .booked-date {
+	background-color: #c8e6c9;
+	position: relative;
+  }
+  
+  .selected-date {
+	background-color: #4fc3f7;
+	color: white;
+  }
+  
+  .dot {
+	height: 10px;
+	width: 10px;
+	background-color: rgb(90, 224, 90);
+	border-radius: 50%;
+	position: absolute;
+	top: 14px;
+	right: 8px;
+	
+  }
+  
+  /* Styling for Booked Label */
+  .booked-indicator {
+	display: flex;
+	align-items: center;
+	margin-top: 10px;
+  }
+  
+  .booked-indicator .dot {
+	margin-right: 5px;
+  }
+.react-calendar__navigation__prev2-button,.react-calendar__navigation__next2-button{
+display: none;
+
+}
+.react-calendar__month-view__weekdays__weekday{
+	align-items: center;
+	text-align: center;
+
+	
+}
+abbr[title]{
+	text-decoration: none !important;
+
+}
+.react-calendar__viewContainer{
+	width: 500px;
+	font-size: large;
+}
+
+.react-calendar__navigation{
+
+	width: 280px;
+	font-weight: 500;
+	font-size: larger;
+}
+.timeslot{
+
+	background-color: #e0f7fa;
+	width: 200px;
+	padding: 10px;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	border-radius: 12px;
+	box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+	cursor: pointer;
+
+}
+.timeslot:hover{
+background-color: #80c7e9;
+scale: 1.01;
+}
+
+.appointment-summary {
+	width: 100%;
+	margin: 0 auto;
+	padding: 20px;
+	border: 1px solid #ddd;
+	border-radius: 8px;
+	font-family: Arial, sans-serif;
+  }
+ .appointment-info{
+width: '60%';
+  }
+  .appointment-info p {
+	margin: 8px 0;
+  }
+  
+ 
+  
+  .date-picker {
+	padding: 5px;
+	font-size: 14px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+  }
+  
+  .change-button {
+	padding: 6px 12px;
+	background-color: #5cb85c;
+	color: white;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+  }
+  
+  .change-button:hover {
+	background-color: #4cae4c;
+  }
+  
+  .qr-code {
+	margin-top: 20px;
+	text-align: center;
+	padding: 20px;
+	margin-right: 15%;
+
+
+  }
+  
+  .qr-code-placeholder {
+	width: 250px;
+	height: 250px;
+	background-color: #f0f0f0;
+	display: inline-block;
+	border: 1px solid #ccc;
+	text-align: center;
+	line-height: 150px;
+	font-size: 12px;
+	color: #888;
+  }
+  
+  .qr-code-number {
+	margin-top: 10px;
+	font-weight: bold;
+  }
+  
+  .payment-status {
+	color: #ffc107;
+	font-weight: bold;
+  }
+  .appoinmentSummery{
+	display: inline-flex;
+	flex-direction: row;
+	width: 100%;
+	justify-content: space-between;
+
+  }
+
+  .appoinment-data{
+
+	color: #888;
+	font-size: small;
+	
+  }
+.appoinment-data p{
+
+	line-height: 6px;
+}
+.timeslot-display{
+	display: inline-flex;
+	flex-direction: row;
+justify-content: space-between;
+gap: 13px;
+}
+
+.timeslot-display-times{
+
+	background-color:transparent;
+	width:max-content;
+	padding: 10px;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	border-radius: 12px;
+	box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+	cursor: pointer;
+	border: 1px;
+}
+
+.payTypeContainer{
+
+	display: inline-flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin: 100px;
+	
+
+}
+
+.Specialbutton_payType{
+
+	padding: 10px;
+	width: 250px;
+	height:250px;
+	border-radius: 50%;
+	text-align: center;
+	cursor: pointer;
+	background-color:  rgb(172, 226, 226);
+	color: rgb(1, 141, 218);
+	font-size: 5.5em;
+	border: none;
+
+	box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+	transition: .2s;
+	&:hover {
+		
+		box-shadow: rgba(1, 141, 218, 0.1) 0px 4px 16px, rgba(1, 141, 218, 0.05) 0px 8px 32px;
+		background-color: rgba(1, 142, 218, 0.347);
+		scale: 1.1;
+		
+	}
+}
+
+
+.payType {
+	display: flex;
+	flex-direction: column; 
+	align-items: center; 
+	width: 320px;
+	height:320px;
+}
+.payType h3{
+	margin-top: 30px;
+	opacity: 0.7;
+	font-size: larger;
+}
+.modal-body {
+justify-content: center !important;
+align-items: center !important;
+padding-left: 30%;
+padding-right: 30%;
+
+}
+
+.payType input[type=file] {
+	font-size: 100px;
+	position: absolute;
+	left: 0;
+	top: -10;
+	opacity: 0;
+  }

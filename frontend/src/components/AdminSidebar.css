@@ -1,0 +1,41 @@
+.sidebar {
+  position: fixed; 
+  top: 0;
+  left: 0;
+  width: 250px;
+  height: 100%; 
+  background-color: rgb(172, 226, 226); 
+  padding: 20px; 
+  overflow-y: auto; 
+  
+}
+
+.sidebar-title {
+  color: rgb(35, 44, 45);
+  margin-bottom: 20px; 
+}
+
+.sidebar-list {
+  list-style-type: none; 
+  padding: 0; 
+}
+
+.sidebar-item {
+  margin: 10px 0; 
+}
+
+.sidebar-link {
+  color: rgb(35, 44, 45); 
+  text-decoration: none; 
+  padding: 10px; 
+  display: block; 
+  border-radius: 4px; 
+}
+
+.sidebar-link:hover {
+  background-color: rgb(225, 255, 255); 
+}
+
+.active .sidebar-link {
+  background-color: rgb(1, 141, 218); 
+}

@@ -1,0 +1,121 @@
+.sidebar {
+    position: fixed; 
+    top: 0;
+    left: 0;
+    width: 250px;
+    height: 100%; 
+    background-color: rgb(172, 226, 226); 
+    padding: 20px; 
+    padding-left: 18px;
+    overflow-y: auto; 
+    font-weight:bolder;
+  }
+  
+  .sidebar-title {
+    color: rgb(35, 44, 45);
+    margin-bottom: 20px; 
+  }
+  .sidebar-title img{
+    width: 100%;
+  }
+  
+  .sidebar-list {
+    list-style-type: none; 
+    padding: 0; 
+  }
+  
+  .sidebar-item {
+    margin: 10px 0; 
+  }
+  
+  .sidebar-link {
+    color: rgb(35, 44, 45); 
+    text-decoration: none; 
+    padding: 10px; 
+    display: block; 
+    border-radius: 10px; 
+    
+  }
+  
+  .sidebar-link:hover {
+    background-color: rgb(225, 255, 255); 
+  }
+  
+  .active .sidebar-link {
+    background-color: rgb(1, 141, 218); 
+    color: white;
+  }
+  .sidebar-link i{
+    margin-right: 20px;
+    margin-left: 5px;
+  }
+  .sidebar-UserSpan{
+    background-color: rgb(225, 255, 255); 
+    width: 95%;
+    position: absolute;
+    bottom: 3%;
+    left: 0%;
+    margin: 3%;
+    height: 8%;
+    border-radius: 18px;
+    padding: 3%;
+    display: flex;
+    flex-direction: row;
+
+
+
+  }
+
+  .sidebar-UserSpan:hover{
+transform: scale(1.02);
+
+
+  }
+  .UserSpan-userProfile{
+    float: left;
+    margin: 2%;
+    margin-right: 6%;
+   
+  }
+
+  .UserSpan-userLogout{
+    float: right;
+    margin: 1%;
+    font-size: 14px;
+    padding: 5%;
+    cursor: pointer;
+  }
+  .UserSpan-userLogout:hover{
+
+   
+    opacity: 0.8;
+   
+  }
+ .userProfile-Profilepic:hover{
+  opacity: 0.8;
+  cursor: pointer;;
+
+ }
+  .userProfile-Profilepic img{
+
+    width:40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 4px;
+  }
+  .userProfile-ProfileDetails{
+   padding: 4% 0;
+ width: 60%;
+ display: block;
+ cursor:default;
+
+  }
+  .userProfile-UserName{
+
+    font-size: 12px;
+  }
+  .userProfile-email{
+
+    font-weight: 200;
+    font-size: 8px;
+  }
