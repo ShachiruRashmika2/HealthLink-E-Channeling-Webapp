@@ -1,8 +1,4 @@
 
-# 👨‍⚕️🏥💉 HealthLink E-Channeling💊🩺⚕️
-
-Health Link E-Channeling is a **University Module Project** developed using the **MERN Stack** (MongoDB, Express, React, Node.js). It simplifies the process of booking medical appointments, providing users with a seamless experience through an intuitive interface.
-=======
 # 👨‍⚕️🏥💉 HealthLink E-Channeling.💊🩺⚕️
 
 HealthLink E-Channeling is a **University Module Project** developed using the **MERN Stack** (MongoDB, Express, React, Node.js). It simplifies the process of booking medical appointments, providing users with a seamless experience through an intuitive interface.
