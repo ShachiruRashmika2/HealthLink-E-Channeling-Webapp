@@ -38,9 +38,15 @@ I was responsible for designing and developing the **entire UI** and **payment s
 
 ## 📸 Screenshots from the Web App
 
-![Health Link Preview - Home](https://your_image_link_here.com)  
-![Health Link Preview - Appointments](https://your_image_link_here.com)  
-![Health Link Preview - Payment](https://your_image_link_here.com)  
+![Health Link Preview - Home](https://github.com/ShachiruRashmika2/HealthLink-E-Channeling-Webapp/blob/main/Snaps/1.png)  
+![Health Link Preview - Appointments](https://github.com/ShachiruRashmika2/HealthLink-E-Channeling-Webapp/blob/main/Snaps/2.png)  
+![Health Link Preview - Speciality](https://github.com/ShachiruRashmika2/HealthLink-E-Channeling-Webapp/blob/main/Snaps/3.png)  
+![Health Link Preview - Doctor](https://github.com/ShachiruRashmika2/HealthLink-E-Channeling-Webapp/blob/main/Snaps/4.png)  
+![Health Link Preview - Hospital](https://github.com/ShachiruRashmika2/HealthLink-E-Channeling-Webapp/blob/main/Snaps/5.png)  
+![Health Link Preview - recipt](https://github.com/ShachiruRashmika2/HealthLink-E-Channeling-Webapp/blob/main/Snaps/6.png)  
+![Health Link Preview - Paymethod](https://github.com/ShachiruRashmika2/HealthLink-E-Channeling-Webapp/blob/main/Snaps/7.png)  
+![Health Link Preview - Paymethod-cash](https://github.com/ShachiruRashmika2/HealthLink-E-Channeling-Webapp/blob/main/Snaps/8.png)  
+
 
 ---
 
